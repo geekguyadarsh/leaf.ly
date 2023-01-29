@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "FortuneCookieNF";
+  src: url(../../assets/FortuneCookieNF.otf);
+}
+
+.navbar {
+  padding: 0;
+  background-color: transparent;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar ul li {
+  margin-right: 1.6em;
+  font-size: 14px;
+}
+
+.navbar ul li .faded-text {
+  opacity: 0.6;
+}
+
+.navbar .searchbar {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+.navbar .searchbar:focus {
+  outline: none;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .navbar-collapse {
+    background-color: #fff;
+    color: black;
+    z-index: 10;
+  }
+  .navbar-collapse ul li a,
+  .navbar-collapse ul li div {
+    background-color: #fff;
+    color: black !important;
+  }
+  .navbar ul li .faded-text {
+    opacity: 1;
+    color: black !important;
+  }
+}

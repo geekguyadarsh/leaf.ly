@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+  #ProductInOrders .orders-item-name {
+    font-size: 12px;
+  }
+
+  #ProductInOrders .orders-item-category,
+  #ProductInOrders .orders-item-action-btn {
+    font-size: 9px;
+  }
+}

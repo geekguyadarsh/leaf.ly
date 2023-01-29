@@ -1,0 +1,74 @@
+#Cart .cart-headers {
+  font-size: 12px;
+  font-family: Poppins;
+  color: #929292;
+}
+
+#Cart .delete-btn {
+  font-size: 12px;
+  font-family: Poppins;
+  color: #c91f24;
+  font-weight: 600;
+  letter-spacing: 0.14px;
+}
+#Cart .cart-item-name,
+#Cart .cart-item-price {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+}
+
+#Cart .cart-item-category {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: #929292;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+#Cart .cart-item-color,
+#Cart .cart-item-size {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+}
+
+#Cart .cart-item-color {
+  font-size: 16px;
+
+  color: #000000;
+  font-weight: 600;
+}
+#Cart .input-box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 3em;
+}
+
+#Cart .input-box:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#Cart .input-box::placeholder {
+  outline: none !important;
+  color: #929292;
+  padding: 8px;
+}
+
+#Cart .apply-btn {
+  background-color: #ffffff;
+}
+
+#Cart .btn-checkout {
+  background-color: #ffbc00;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 7px;
+}

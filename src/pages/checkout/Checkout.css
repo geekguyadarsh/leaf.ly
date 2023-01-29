@@ -1,0 +1,12 @@
+#checkout .form-control::placeholder {
+  font-size: 12px;
+  color: #929292;
+}
+
+#checkout .btn-pay {
+  background-color: #ffbc00;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}

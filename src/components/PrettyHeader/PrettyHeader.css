@@ -1,0 +1,14 @@
+.pretty-header .pretty-text {
+  text-align: left;
+  font-family: PlayfairDisplay !important;
+  letter-spacing: 0px;
+  color: #384355;
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .pretty-text-left .pretty-text {
+    position: absolute;
+    left: 13px;
+  }
+}

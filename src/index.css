@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "FortuneCookieNF";
+  src: url("./assets/FortuneCookieNF.otf");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("./assets/PlayfairDisplay.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/Poppins-Regular.ttf");
+}
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+a:hover {
+  text-decoration: none;
+}
+
+#product-card:hover {
+  box-shadow: 0px 5px 10px #6d7a70;
+}
+
+.btn-outline-secondary {
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  color: #384355;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #ffffff !important;
+  color: black;
+  box-shadow: none !important;
+}
+
+.btn-outline-secondary:active {
+  background-color: #ffffff !important;
+  color: black important;
+  box-shadow: none !important;
+}
+.btn-outline-secondary:focus {
+  background-color: #ffffff !important;
+  color: black important;
+  box-shadow: none !important;
+}
+
+.text-black {
+  color: black;
+}
+
+.MuiSlider-root {
+  color: #000000 !important;
+}
+
+button:hover {
+  cursor: pointer !important;
+}
+
+.show-btn {
+  font-weight: 600;
+  font-size: 13px;
+  padding: 8px 14px;
+}
+
+.page-title {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+    center/15000%;
+}
+.ripple:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}

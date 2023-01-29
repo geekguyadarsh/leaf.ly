@@ -1,0 +1,45 @@
+#ProductInfo .colr-btn {
+  outline: none;
+}
+
+#ProductInfo button:focus {
+  outline: none;
+  border: 2px solid #384355;
+}
+
+#ProductInfo #inputZip:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+#ProductInfo #inputZip {
+  font-size: 12px;
+  letter-spacing: 0.43px;
+  text-transform: capitalize;
+  border: none;
+  width: 180px;
+  height: 36px;
+}
+
+#ProductInfo #inputZip::placeholder {
+  font-size: 12px;
+  letter-spacing: 0.43px;
+  color: #a09999;
+  text-transform: capitalize;
+  border: none;
+}
+
+#ProductInfo .size-btn {
+  background-color: "#FFFFFF" !important;
+  width: "36px" !important;
+  height: "36px" !important;
+  letter-spacing: 0.43px;
+  color: #000000;
+}
+
+#ProductInfo .size-btn:hover {
+  box-shadow: 0px 6px 12px #0000000d !important;
+}
+
+#ProductInfo .size-btn:focus {
+  border: 1px solid #000000 !important;
+}

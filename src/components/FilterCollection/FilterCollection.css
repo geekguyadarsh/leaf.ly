@@ -1,0 +1,8 @@
+.FilterCollection input.largerCheckbox {
+  width: 18px;
+  height: 18px;
+}
+
+.FilterCollection .largerCheckbox-label {
+  font-size: 14px;
+}
